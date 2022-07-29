@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name="mkdocs-multirepo-plugin",
+    name="mkdocs-multirepo-plugin-reedsutliff",
     scripts=[
         'mkdocs_multirepo_plugin/scripts/sparse_clone.sh',
         'mkdocs_multirepo_plugin/scripts/sparse_clone_old.sh',
